@@ -2,11 +2,19 @@ body {
   background-color: gray;
 }
 
+ul {
+  list-style-type: none;
+}
+
+p {
+  display: block;
+  justify-content: center;
+}
+
 ul#nav {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -21,4 +29,8 @@ ul#nav>li {
 
 ul#nav>li a:hover {
   background-color: #111;
+}
+
+img:hover {
+  background-color: #405245;
 }
