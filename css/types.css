@@ -3,18 +3,29 @@ body {
   padding: 0;
 }
 
-.navbar {
-  background-color: #8a8e94;
-  width: 5rem;
-  height: 100vh;
-}
-
 .navbar-nav {
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  list-style-type: none;
-  margin: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ffcc66;
+  list-style: none outside none;
   padding: 0;
+}
+
+.navbar-item {
+  flex-grow: 1;
+}
+
+.nav-link {
+  text-decoration: none;
   color: black;
+}
+
+#small_icon_logo {
+  display: inline-block;
+  width: 5%;
+  length: 5%;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
 }
