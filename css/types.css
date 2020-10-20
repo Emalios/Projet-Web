@@ -1,36 +1,20 @@
 body {
-  background-color: gray;
-}
-
-ul {
-  list-style-type: none;
-}
-
-p {
-  display: block;
-  justify-content: center;
-}
-
-ul#nav {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
   margin: 0;
   padding: 0;
 }
 
-ul#nav>li {
-  width: auto;
-  height: auto;
-  padding: 1%;
-  background-color: lightblue;
-  border: solid 1px black;
+.navbar {
+  background-color: #8a8e94;
+  width: 5rem;
+  height: 100vh;
 }
 
-ul#nav>li a:hover {
-  background-color: #111;
-}
-
-img:hover {
-  background-color: #405245;
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
