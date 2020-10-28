@@ -9,21 +9,13 @@ body {
   justify-content: space-evenly;
   background-color: #ffcc66;
   list-style: none outside none;
-  padding: 0;
-}
-
-.navbar-item {
-  flex-grow: 1;
+  background-image: url(../images/logo_large_true.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 18px, 18px;
 }
 
 .nav-link {
   text-decoration: none;
   color: black;
-}
-
-#small_icon_logo {
-  display: block;
-  width: 5%;
-  padding: 0;
-  margin: 0;
 }

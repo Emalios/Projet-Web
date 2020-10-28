@@ -7,6 +7,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
+  width: 238px;
+  height: 35px;
 }
 
 ul#nav {
@@ -28,4 +30,12 @@ ul#nav>li {
 
 ul#nav>li a:hover {
   background-color: #111;
+}
+
+p {
+  padding: 0px 7px;
+}
+
+footer {
+  padding: 0px 7px;
 }
