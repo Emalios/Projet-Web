@@ -6,6 +6,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1em;
 }
 
 ul#nav {
@@ -14,7 +15,7 @@ ul#nav {
   align-items: stretch;
   list-style-type: none;
   margin: 0;
-  padding: 10;
+  padding: 1em;
 }
 
 ul#nav>li {
