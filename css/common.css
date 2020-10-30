@@ -1,6 +1,14 @@
 body {
-  margin: 0;
+  background-color: gray;
   padding: 0;
+  margin: 0;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
 }
 
 ul {
@@ -9,8 +17,8 @@ ul {
 
 .navbar-nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  align-content: center;
   background-color: #ffcc66;
   padding: 0;
 }
@@ -24,9 +32,6 @@ ul {
   color: black;
 }
 
-#small_icon_logo {
-  display: block;
-  width: 5%;
-  padding: 0;
-  margin: 0;
+.nav-link:hover {
+  background-color: #111;
 }
