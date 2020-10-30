@@ -3,12 +3,15 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style: none outside none;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #ffcc66;
-  list-style: none outside none;
   padding: 0;
 }
 
