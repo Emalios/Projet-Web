@@ -1,5 +1,7 @@
 body {
-  background-color: gray;
+  background-color: #42455a;
+  font-size: 18px;
+  font-family: 'Open Sans';
 }
 
 #logo {
@@ -14,19 +16,23 @@ ul {
 }
 
 .navbar-nav {
+  font-size: 24px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #ffcc66;
   padding: 0;
 }
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: #b2b1b1;
 }
 
 .nav-link:hover {
   background-color: #111;
+}
+
+#active {
+  color: #19dafa !important;
 }
 
 @media all and (max-width: 700px) {
