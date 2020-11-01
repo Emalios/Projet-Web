@@ -1,14 +1,15 @@
 body {
-  background-color: #42455a;
+  background-color: #3e4a61;
   font-size: 18px;
-  font-family: 'Open Sans';
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 ul {
@@ -16,6 +17,7 @@ ul {
 }
 
 .navbar {
+  font-family: 'Open Sans';
   font-size: 24px;
   display: flex;
   justify-content: space-evenly;
@@ -33,6 +35,11 @@ ul {
 
 #active {
   color: #19dafa !important;
+}
+
+#title {
+  text-align: center;
+  padding: 1rem;
 }
 
 @media all and (max-width: 700px) {
