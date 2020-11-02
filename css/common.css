@@ -29,11 +29,7 @@ ul {
   color: #b2b1b1;
 }
 
-.nav-link:hover {
-  background-color: #111;
-}
-
-#active {
+.nav-link:hover, #active {
   color: #19dafa !important;
 }
 
