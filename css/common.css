@@ -10,6 +10,7 @@ body {
   margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  max-width: 500px;
 }
 
 ul {
@@ -20,7 +21,6 @@ ul {
   font-family: 'Open Sans';
   font-size: 24px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0;
 }
@@ -30,7 +30,11 @@ ul {
   color: #b2b1b1;
 }
 
-.nav-link:hover, #active {
+.nav-link:hover {
+  background-color: #111;
+}
+
+#active {
   color: #19dafa !important;
 }
 
