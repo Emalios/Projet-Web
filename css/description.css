@@ -1,3 +1,19 @@
 .resume, .description {
     color: #919191;    
 }
+
+.figure_descriptive {
+    margin: 0;
+    padding-right: 10px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+}
+
+.description {
+    margin: 0;
+    width: 100%;    
+    text-align: center;
+}
