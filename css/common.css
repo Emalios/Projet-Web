@@ -18,17 +18,17 @@ ul {
 }
 
 .navbar {
-  font-family: 'Open Sans';
   font-size: 24px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0;
+  background-color: #313a4b;
 }
 
 .nav-link {
   text-decoration: none;
-  color: #b2b1b1;
+  color: #c0bebe;
 }
 
 .nav-link:hover {
@@ -39,7 +39,7 @@ ul {
   color: #19dafa !important;
 }
 
-#sous-titre, #title {
+#title {
   text-align: center;
   padding: 1rem;
 }
