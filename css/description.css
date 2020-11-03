@@ -12,6 +12,13 @@
     text-align: center;
 }
 
+.image_descriptive {
+    float: left;
+    margin: 15px 15px;
+    width: 35%;
+    min-width: 300px;
+  }
+
 .description {
     margin: 0;
     width: 100%;    

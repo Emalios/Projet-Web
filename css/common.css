@@ -43,13 +43,6 @@ ul {
   padding: 1rem;
 }
 
-.image_descriptive {
-  float: left;
-  margin: 15px 15px;
-  width: 35%;
-  min-width: 300px;
-}
-
 @media all and (max-width: 700px) {
   #logo {
     display: block;
