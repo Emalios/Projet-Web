@@ -21,6 +21,7 @@ ul {
   font-family: 'Open Sans';
   font-size: 24px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 0;
 }

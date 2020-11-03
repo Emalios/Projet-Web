@@ -4,23 +4,23 @@
 
 .figure_descriptive {
     margin: 0;
-    padding-right: 10px;
+    margin-right: 1rem;
     width: min-content;
     display: flex;
     flex-direction: column;
     float: left;
     text-align: center;
+    border: solid;
 }
-
-.image_descriptive {
-    float: left;
-    margin: 15px 15px;
-    width: 35%;
-    min-width: 300px;
-  }
 
 .description {
     margin: 0;
     width: 100%;    
     text-align: center;
 }
+
+.image_descriptive {
+    float: left;
+    width: 100%;
+    min-width: 300px;
+  }
