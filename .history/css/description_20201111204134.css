@@ -15,6 +15,7 @@
     flex-direction: column;
     float: left;
     text-align: center;
+    border: solid;
     border-style: groove;
 }
 
