@@ -45,6 +45,8 @@ ul {
 }
 
 footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #272e3a;
   text-align: center;
 }

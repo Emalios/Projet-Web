@@ -46,6 +46,10 @@ ul {
 
 footer {
   background-color: #272e3a;
+}
+
+.footer-link {
+  display: inline-block;
   text-align: center;
 }
 

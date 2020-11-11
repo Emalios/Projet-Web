@@ -49,6 +49,11 @@ footer {
   text-align: center;
 }
 
+.footer-link {
+  display: inline-block;
+  
+}
+
 @media all and (max-width: 700px) {
   #logo {
     display: block;

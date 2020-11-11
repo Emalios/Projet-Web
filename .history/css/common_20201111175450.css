@@ -46,7 +46,10 @@ ul {
 
 footer {
   background-color: #272e3a;
-  text-align: center;
+}
+
+.footer-link {
+  align-items: center;
 }
 
 @media all and (max-width: 700px) {

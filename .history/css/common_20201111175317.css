@@ -26,7 +26,7 @@ ul {
   background-color: #313a4b;
 }
 
-.nav-link, .footer-link {
+.nav-link {
   text-decoration: none;
   color: #c0bebe;
 }
@@ -46,7 +46,6 @@ ul {
 
 footer {
   background-color: #272e3a;
-  text-align: center;
 }
 
 @media all and (max-width: 700px) {
