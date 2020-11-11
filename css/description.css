@@ -1,6 +1,6 @@
 .resume, .description {
-    color: #919191;    
-    font-family: Verdana, sans-serif;
+  color: #919191;
+  font-family: Verdana, sans-serif;
 }
 
 .description {
@@ -8,6 +8,7 @@
 }
 
 .figure_descriptive {
+<<<<<<< HEAD
     margin: 0;
     margin-right: 1rem;
     width: min-content;
@@ -17,16 +18,26 @@
     text-align: center;
     border: solid;
     border-style: groove;
+=======
+  margin: 0;
+  margin-right: 1rem;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-align: center;
+  border: solid;
+>>>>>>> b6c7c9785fd108dd37884e1dcfc2e07f0e675115
 }
 
 .description {
-    margin: 0;
-    width: 100%;    
-    text-align: center;
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .image_descriptive {
-    float: left;
-    width: 100%;
-    min-width: 300px;
-  }
+  float: left;
+  width: 100%;
+  min-width: 300px;
+}
