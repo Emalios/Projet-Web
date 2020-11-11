@@ -3,10 +3,6 @@
     font-family: Verdana, sans-serif;
 }
 
-.description {
-    color: #d6d0d0; 
-}
-
 .figure_descriptive {
     margin: 0;
     margin-right: 1rem;
@@ -16,7 +12,6 @@
     float: left;
     text-align: center;
     border: solid;
-    border-style: groove;
 }
 
 .description {

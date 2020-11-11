@@ -4,7 +4,7 @@
 }
 
 .description {
-    color: #d6d0d0; 
+    color: #c0b9b9; 
 }
 
 .figure_descriptive {
@@ -16,7 +16,6 @@
     float: left;
     text-align: center;
     border: solid;
-    border-style: groove;
 }
 
 .description {
