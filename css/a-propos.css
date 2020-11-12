@@ -18,6 +18,10 @@
   min-width: 260px;
 }
 
+#lien-site {
+  min-width: 200px;
+}
+
 .description {
   display: block;
   text-align: justify;
@@ -48,7 +52,7 @@ section {
   border-radius: 10px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 800px) {
   .texte {
     display: flex;
     flex-direction: column;
